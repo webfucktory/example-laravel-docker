@@ -56,7 +56,7 @@ RUN \
 
 FROM base
 
-LABEL org.opencontainers.image.source=REPOSITORY_URL
+LABEL org.opencontainers.image.source=https://github.com/webfucktory/example-laravel
 
 COPY --from=vendor /var/www/html .
 

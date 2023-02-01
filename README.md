@@ -10,7 +10,7 @@ From `<project root>` path, run:
 docker run \
   -p 8000:8000 \
   -v $(pwd)/.env:/var/www/html/.env:ro \
-  BASE_IMAGE/app \
+  ghcr.io/webfucktory/example-laravel/app \
   php artisan serve --host 0.0.0.0
 ```
 

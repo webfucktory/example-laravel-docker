@@ -5,7 +5,7 @@ From `<project root>` path, run:
 ```shell
 docker build \
   -f .docker/build/Dockerfile \
-  -t BASE_IMAGE \
+  -t ghcr.io/webfucktory/example-laravel \
   .
 ```
 
@@ -14,7 +14,7 @@ docker build \
 ```shell
 docker build \
   -f .docker/build/app.Dockerfile \
-  -t BASE_IMAGE/app \
+  -t ghcr.io/webfucktory/example-laravel/app \
   .
 ```
 
@@ -23,7 +23,7 @@ docker build \
 ```shell
 docker build \
   -f .docker/build/webserver.Dockerfile \
-  -t BASE_IMAGE/webserver \
+  -t ghcr.io/webfucktory/example-laravel/webserver \
   .
 ```
 
@@ -32,7 +32,7 @@ docker build \
 ```shell
 docker build \
   -f .docker/build/queue.Dockerfile \
-  -t BASE_IMAGE/queue \
+  -t ghcr.io/webfucktory/example-laravel/queue \
   .
 ```
 
@@ -41,6 +41,6 @@ docker build \
 ```shell
 docker build \
   -f .docker/build/schedule.Dockerfile \
-  -t BASE_IMAGE/schedule \
+  -t ghcr.io/webfucktory/example-laravel/schedule \
   .
 ```

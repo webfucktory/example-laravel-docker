@@ -1,7 +1,7 @@
 ARG base_image_version=latest
 ARG nginx_version=latest
 
-FROM BASE_IMAGE:$base_image_version as base
+FROM ghcr.io/webfucktory/example-laravel:$base_image_version as base
 
 FROM nginx:$nginx_version
 
