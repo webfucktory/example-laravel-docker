@@ -1,8 +1,8 @@
-## Build
+# Build
 
-See [build/README.md](build/README.md)
+[build/README.md](build/README.md)
 
-## Test
+# Test
 
 From `<project root>` path, run:
 
@@ -14,4 +14,12 @@ docker run \
   php artisan serve --host 0.0.0.0
 ```
 
-Visit [127.0.0.1:8000](http://127.0.0.1:8000/)
+[127.0.0.1:8000](http://127.0.0.1:8000/)
+
+# Deploy
+
+<https://docs.docker.com/engine/swarm/>
+
+<https://github.com/webfucktory/docker-web>
+
+[swarm/README.md](swarm/README.md)
