@@ -6,7 +6,7 @@ services:
     depends_on:
       - app
 
-    image: *BASE_IMAGE*/queue:${QUEUE_VERSION}
+    image: ghcr.io/webfucktory/example-laravel/queue:${QUEUE_VERSION}
 
     networks:
       - maria

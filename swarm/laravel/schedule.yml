@@ -6,7 +6,7 @@ services:
     depends_on:
       - app
 
-    image: *BASE_IMAGE*/schedule:${SCHEDULE_VERSION}
+    image: ghcr.io/webfucktory/example-laravel/schedule:${SCHEDULE_VERSION}
 
     networks:
       - maria

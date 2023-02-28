@@ -29,7 +29,7 @@ services:
         - traefik.http.routers.laravel-webserver-https.tls.certresolver=le
         # - traefik.http.routers.laravel-webserver-https.middlewares=laravel-webserver-auth
 
-    image: *BASE_IMAGE*/webserver:${WEBSERVER_VERSION}
+    image: ghcr.io/webfucktory/example-laravel/webserver:${WEBSERVER_VERSION}
 
     networks:
       - app
